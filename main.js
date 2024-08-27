@@ -9,7 +9,7 @@ document.getElementById("goButton").addEventListener("click", function () {
 
     var redirectionURLs = {
         "QC1 - Linia P": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D1": baseRedirectURL + "&prefill_Station=" + selectedStation,
+        "QC1%20-%20Linia%20": baseRedirectURL + "&prefill_Station=" + selectedStation,
         "D2": baseRedirectURL + "&prefill_Station=" + selectedStation,
         "D3": baseRedirectURL + "&prefill_Station=" + selectedStation,
         "D4": baseRedirectURL + "&prefill_Station=" + selectedStation
