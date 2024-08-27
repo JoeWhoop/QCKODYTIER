@@ -8,11 +8,10 @@ document.getElementById("goButton").addEventListener("click", function () {
     var baseRedirectURL = "https://web.miniextensions.com/Coh40eDvJWVxS734kjh1?prefill_Mechanic=" + selectedMechanic;
 
     var redirectionURLs = {
-        "QC1 - Linia P": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "QC1%20-%20Linia%20": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D2": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D3": baseRedirectURL + "&prefill_Station=" + selectedStation,
-        "D4": baseRedirectURL + "&prefill_Station=" + selectedStation
+        "QC1": baseRedirectURL + "&prefill_Station=" + selectedStation,
+        "QC2": baseRedirectURL + "&prefill_Station=" + selectedStation,
+        "QC3": baseRedirectURL + "&prefill_Station=" + selectedStation,
+        "QC4": baseRedirectURL + "&prefill_Station=" + selectedStation
         
     };
 
