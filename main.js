@@ -14,7 +14,6 @@ document.getElementById("goButton").addEventListener("click", function () {
         "QC4": baseRedirectURL + "&prefill_Station=" + selectedStation,
         "NAPRAWA": baseRedirectURL + "&prefill_Station=" + selectedStation,
         "IoT": baseRedirectURL + "&prefill_Station=" + selectedStation
-        
     };
 
     if (redirectionURLs[selectedStation]) {
